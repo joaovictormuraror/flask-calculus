@@ -1,0 +1,12 @@
+POST http://localhost:5000/calculos
+Content-Type: application/json
+
+{
+    "numero1": 3,
+    "numero2": 9
+}
+
+### 
+
+GET http://localhost:5000/calculos
+Content-Type: application/json
